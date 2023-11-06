@@ -194,7 +194,7 @@ const MovieList = () => {
         )}
       </div>
 
-      <h1 className="mt-20">Add Movie Form</h1>
+      <h1 className="mt-20 bold">Add Movie</h1>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}

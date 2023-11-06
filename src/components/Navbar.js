@@ -42,9 +42,8 @@ const Navbar = () => {
     <div>
       <div className="w-full fixed z-40">
         <div
-          className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-150 ${
-            showBackground ? "bg-zinc-900 bg-opacity-90" : ""
-          }`}
+          className={`px-4 md:px-16 py-6 flex flex-row items-center transition duration-150 ${showBackground ? "bg-zinc-900 bg-opacity-90" : ""
+            }`}
         >
           <Link to={`/`}>
             <img className="h-5 lg:h-7" src="/images/logo.png" alt="logo" />
@@ -60,6 +59,11 @@ const Navbar = () => {
             <Link to={`/news`}>
               <NavbarItem label="New & Popular" />
             </Link>
+            <Link to={"/about"}>
+              <div className="px-3 text-center text-white hover:underline">
+                About
+              </div>
+            </Link>
             <Link to={`/filmsManagement`}>
               <NavbarItem label="Add Film" />
             </Link>
@@ -70,9 +74,8 @@ const Navbar = () => {
           >
             <p className="text-white text-sm">Browse</p>
             <BsChevronDown
-              className={`text-white transition ${
-                showMobileMenu ? "rotate-180" : "rotate-0"
-              }`}
+              className={`text-white transition ${showMobileMenu ? "rotate-180" : "rotate-0"
+                }`}
             />
             <MobileMenu visible={showMobileMenu} />
           </div>
@@ -96,9 +99,8 @@ const Navbar = () => {
                 className={"text-gray-200 hover:text-grey-300 cursor-pointer"}
               >
                 <BsChevronDown
-                  className={`w-4 text-white fill-white transition ${
-                    showAccountMenu ? "rotate-180" : "rotate-0"
-                  }`}
+                  className={`w-4 text-white fill-white transition ${showAccountMenu ? "rotate-180" : "rotate-0"
+                    }`}
                 />
               </div>
               <AccountMenu

@@ -13,6 +13,7 @@ import News from "./components/News"
 import FilmsManageMent from "./components/FilmsManagement"
 import { AuthContextProvider } from "./context/AuthContext"
 import Signin from "./components/Signin"
+import About from "./components/About"
 
 const App = () => {
   const [APIdata, setAPIdata] = useState([])
@@ -105,6 +106,14 @@ const App = () => {
             element={
               <div className="pt-28">
                 <News />
+              </div>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <div className="pt-28">
+                <About />
               </div>
             }
           />

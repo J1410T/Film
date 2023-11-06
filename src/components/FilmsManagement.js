@@ -35,7 +35,7 @@ const FilmsManageMent = () => {
   return (
     <div className="relative h-full w-full">
       <div className="container rounded-md bg-white py-20 px-20 ">
-        <h1 className="">Formik CRUD Film</h1>
+        <h1 className="">Manage Films</h1>
 
         <AddMovieForm />
       </div>

@@ -13,10 +13,14 @@ const MobileMenu = ({ visible }) => {
             Home
           </div>
         </Link>
-
         <Link to={`/news`}>
           <div className="px-3 text-center text-white hover:underline">
             News & popular
+          </div>
+        </Link>
+        <Link to={"/about"}>
+        <div className="px-3 text-center text-white hover:underline">
+            About
           </div>
         </Link>
         <Link to={"/FilmsManagement"}>
