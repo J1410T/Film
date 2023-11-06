@@ -4,7 +4,7 @@ const News = () => {
             <div className="container my-24 mx-auto md:px-6">
                 <section className="mb-8 lg:mb-10">
                     <h1 className="mb-4 text-3xl font-bold">
-                        First Images of Angelina Jolie as Maria Callas Unveiled as Pablo Larrain’s ‘Maria’ Begins Shoot
+                    Kung Fu Panda 4 Will Likely Be Angelina Jolie's Biggest Box Office Hit Since 2016
                     </h1>
 
                     <p className="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
@@ -31,7 +31,7 @@ const News = () => {
                     </p>
 
                     <p className="mb-6">
-                    Welcome to our dedicated Angelina Jolie film website, where we celebrate the illustrious career of one of Hollywood's most iconic actresses. Here, we explore the captivating filmography and outstanding performances of Angelina Jolie, an actress known for her talent, versatility, and contributions to the world of cinema. Join us as we take a deep dive into her diverse roles, from dramatic masterpieces to action-packed adventures, and discover the magic that Angelina Jolie brings to the silver screen. Explore her filmography, behind-the-scenes insights, and more as we pay homage to this incredible actress and her remarkable cinematic journey.
+                    Kung Fu Panda 4, which will be released in 2024, marks Angelina Jolie's biggest box office hit since Kung Fu Panda 3 in 2016. Given how well the third installment in the Kung Fu Panda franchise performed at the box office, the fourth film will undoubtedly be just as successful. In fact, it may even outdo the third film due to the 8-year gap, and because the franchise, like Shrek, Toy Story, or How to Train Your Dragon is a beloved series of animated films that have been going strong for over a decade.
                     </p>
 
                     <p className="mb-6">
@@ -39,16 +39,13 @@ const News = () => {
                     </p>
 
                     <p className="mb-6">
-                        The first two images of Angelina Jolie as famed diva Maria Callas in Pablo Larrain‘s upcoming biopic Maria have been revealed.
-                        Based on true accounts, the film will tell the tumultuous, beautiful and tragic story of the life of the world’s greatest opera singers, relived and re-imagined during her final days in 1970s Paris. With the independent production having signed to a SAG-AFTRA interim agreement, the shoot is now set to start, and will take place over eight weeks in Paris, Greece, Budapest and Milan.
-                        Alongside Jolie, the cast also includes Pierfrancesco Favino (Adagio, The Hummingbird), Alba Rohrwacher (La Chimera, Hungry Hearts), Haluk Bilginer (Winter Sleep), Kodi Smit-McPhee (The Power of the Dog, Elvis) and Valeria Golino (Portrait of a Lady on Fire, Caos Calmo).
-
+                    Between Kung Fu Panda and Kung Fu Panda 3, Jolie's character, Tigress, also appeared in shorter videos and holiday specials like Kung Fu Panda Holiday, Kung Fu Panda: Secrets of the Masters, and Kung Fu Panda Po's Winter Wonderland. These smaller spinoffs kept the franchise alive in fans' minds but also made it ubiquitous, whereas releasing a new film all these years later will make it feel special. Jolie is rejoined by the original cast including Jack Black as Po, Seth Rogen as Mantis, Jackie Chan as Monkey, and Dustin Hoffman as Rat.
                     </p>
 
                     <p className="mb-6 rounded border-l-4 border-neutral-800 bg-neutral-100 p-2 dark:border-neutral-200 dark:bg-neutral-700">
                         <strong>Note:</strong> This movie web is created for Angelina Jolie and her film for
                          grade in FER201m. Building with React and Tailwind,
-                        MaterialUI and Materialize. Most of the project uses Javascript.
+                        MaterialUI and Materialize, Javascript.
                     </p>
 
                     <p className="mb-6">
@@ -56,7 +53,7 @@ const News = () => {
                     </p>
 
                     <img
-                        src="./images/hero.jpg"
+                        src="./images/Gia.jpg"
                         className="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20"
                         alt=""
                     />
