@@ -43,14 +43,20 @@ const Streaming = () => {
         <i className="text-zinc-300">You are watching:</i> {film.title}
       </h1>
       <div className="relative ">
-        <video
+        <iframe width="560" height="315"
+          poster={film.thumbnailUrl}
+          src={film.videoUrl}
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        {/* <video
           ref={videoRef}
           poster={film.thumbnailUrl}
           className="autoPlay w-full object-cover transition duration-500"
           controls
         >
           <source src={film.videoUrl} type="video/mp4" />
-        </video>
+        </video> */}
       </div>
       <h2 className="text-2xl text-white">
         <i>Genre: </i>
