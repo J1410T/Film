@@ -65,7 +65,7 @@ const Navbar = () => {
               </div>
             </Link>
             <Link to={`/filmsManagement`}>
-              <NavbarItem label="Add Film" />
+              <NavbarItem label="Manage & Add Film" />
             </Link>
           </div>
           <div

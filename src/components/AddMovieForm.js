@@ -182,10 +182,10 @@ const MovieList = () => {
                   onChange={handleInputChange}
                 />
 
-                <button className="btn-blue" onClick={handleSaveEdit}>
+                <button className=" bold btn-blue" onClick={handleSaveEdit}>
                   Save
                 </button>
-                <button className="btn-gray ml-2" onClick={handleCancelEdit}>
+                <button className="bold btn-gray ml-2" onClick={handleCancelEdit}>
                   Cancel
                 </button>
               </form>
@@ -251,7 +251,7 @@ const MovieList = () => {
             <ErrorMessage name="duration" component="div" className="error" />
           </div>
 
-          <button type="submit" className="btn-blue mt-4">
+          <button type="submit" className="btn-blue mt-4" color="primary">
             Add Movie
           </button>
         </Form>

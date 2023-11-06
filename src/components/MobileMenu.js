@@ -25,7 +25,7 @@ const MobileMenu = ({ visible }) => {
         </Link>
         <Link to={"/FilmsManagement"}>
           <div className="px-3 text-center text-white hover:underline">
-            Add Film
+            Manage & Add Film
           </div>
         </Link>
       </div>
