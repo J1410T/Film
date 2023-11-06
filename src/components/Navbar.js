@@ -2,7 +2,7 @@ import { UserAuth } from "../context/AuthContext"
 import { useCallback, useEffect, useState } from "react"
 import MobileMenu from "./MobileMenu"
 import NavbarItem from "./NavbarItem"
-import { BsChevronDown, BsSearch, BsBell } from "react-icons/bs"
+import { BsChevronDown } from "react-icons/bs"
 import AccountMenu from "./AccountMenu"
 import React from "react"
 import { Link } from "react-router-dom"
@@ -79,18 +79,10 @@ const Navbar = () => {
             />
             <MobileMenu visible={showMobileMenu} />
           </div>
-          <div className="flex flex-row ml-auto mr-4 gap-7 items-center">
-            <div className="text-gray-200 hover:text-grey-300 cursor-pointer">
-              <BsSearch />
-            </div>
-            <div className="text-gray-200 hover:text-grey-300 cursor-pointer">
-              <BsBell />
-            </div>
-          </div>
           {user?.displayName ? (
             <div
               onClick={toggleAccountMenu}
-              className="flex flex-row items-center gap-2 relative ml-7"
+              className="flex flex-row ml-auto mr-4 gap-7 items-center"
             >
               <div className="w-8 h-auto overflow-hidden rounded-md">
                 <img src="/images/smiley-profile.png" alt="" />
