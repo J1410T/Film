@@ -70,7 +70,7 @@ const Signin = () => {
           </button>
           <p className="text-neutral-500 mt-12">
             {variant === "login"
-              ? "First time using bro?"
+              ? "Have not used before?"
               : "Already has an account?"}
             <span
               onClick={toggleVariant}
@@ -80,7 +80,7 @@ const Signin = () => {
             </span>
           </p>
           <div>
-            <div className=" w-full pt-5 items-center justify-center content-center">
+            <div className=" w-full py-3 items-center justify-center content-center">
               <GoogleButton onClick={handleGoogleSignIn} />
             </div>
           </div>

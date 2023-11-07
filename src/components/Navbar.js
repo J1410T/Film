@@ -79,6 +79,7 @@ const Navbar = () => {
             />
             <MobileMenu visible={showMobileMenu} />
           </div>
+          <div className="flex flex-row ml-auto mr-4 gap-7 items-center"></div>
           {user?.displayName ? (
             <div
               onClick={toggleAccountMenu}
@@ -104,7 +105,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to={`/signin`}>
-              <div className="bg-red-600 py-3 px-3 text-white rounded-md w-full hover:bg-red-700 transition">
+              <div className="  bg-red-600 py-3 px-3 text-white rounded-md w-full hover:bg-red-700 transition">
                 Sign In
               </div>
             </Link>
