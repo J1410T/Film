@@ -27,9 +27,9 @@ Ensure you have the following prerequisites installed before starting:
 ### UI 💕
 #### Screenshots when you are not logged into the application:
 
-![App Screenshot](https://github.com/J1410T/Website_Films_for_AngelinaJolie/blob/main/screenshots/Screenshot%202023-11-20%20164915.png?raw=true)
+![App Screenshot](https://github.com/J1410T/Film/blob/main/screenshots/Screenshot%202023-11-20%20164915.png?raw=true)
 
 #### Screenshots when you are logging into the application:
 
-![App Screenshot](https://github.com/J1410T/Website_Films_for_AngelinaJolie/blob/main/screenshots/Screenshot%202023-11-20%20164835.png?raw=true)
+![App Screenshot](https://github.com/J1410T/Film/blob/main/screenshots/Screenshot%202023-11-20%20164835.png?raw=true)
 
